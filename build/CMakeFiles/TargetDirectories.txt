@@ -1,0 +1,4 @@
+/Users/lyfae/Documents/github/CIS_17C_Data_Structures/lectures/labs/student/lab_01/build/CMakeFiles/bookstore_test.dir
+/Users/lyfae/Documents/github/CIS_17C_Data_Structures/lectures/labs/student/lab_01/build/CMakeFiles/bookstore.dir
+/Users/lyfae/Documents/github/CIS_17C_Data_Structures/lectures/labs/student/lab_01/build/CMakeFiles/edit_cache.dir
+/Users/lyfae/Documents/github/CIS_17C_Data_Structures/lectures/labs/student/lab_01/build/CMakeFiles/rebuild_cache.dir
