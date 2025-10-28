@@ -15,6 +15,7 @@ void Bookstore::addBook(const Book& book) {
 void Bookstore::registerUser(const User& user) {
     // Add the user to the users vector
     // Hint: look at the addBook method
+    users.push_back(user);
 }
 
 std::vector<Book> Bookstore::searchBooks(const std::string& query) {
@@ -33,10 +34,16 @@ void Bookstore::addToCart(const Book& book, int qty) {
     // Add the book the cart vector ( as a pair )
     // Hint: look at the registerUser method, but instead
     // of adding one, there are two things to add.
+    cart.push_back(std::make_pair(book, qty));
 }
 
 double Bookstore::getCartTotal() {
     // Calculate the total price of the cart
+    double total = 0.0;
+    for (int i = 0; i < cart.size(); i++) {
+        total += cart[i].first.price * cart[i].second;
+    }
+    return total;
 }
 
 void Bookstore::checkout(const User& user) {
